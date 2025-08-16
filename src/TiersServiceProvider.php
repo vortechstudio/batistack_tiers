@@ -2,9 +2,9 @@
 
 namespace Batistack\Tiers;
 
+use Batistack\Tiers\Commands\TiersCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Batistack\Tiers\Commands\TiersCommand;
 
 class TiersServiceProvider extends PackageServiceProvider
 {

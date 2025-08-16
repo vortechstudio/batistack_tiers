@@ -2,9 +2,9 @@
 
 namespace Batistack\Tiers\Tests;
 
+use Batistack\Tiers\TiersServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Batistack\Tiers\TiersServiceProvider;
 
 class TestCase extends Orchestra
 {
