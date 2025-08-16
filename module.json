@@ -1,0 +1,11 @@
+{
+  "name": "Tiers",
+  "slug": "tiers",
+  "description": "Gestion des clients, fournisseurs et sous-traitants",
+  "version": "1.0.0",
+  "requires": ["core>=1.0"],
+  "features": ["tiers.base"],
+  "nav": [
+    {"label": "Tiers", "route": "tiers.index", "icon": "lucide-users"}
+  ]
+}
